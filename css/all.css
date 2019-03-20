@@ -1,0 +1,240 @@
+0/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+  min-height: 100%;
+  width: 100%;
+  margin:  0px auto ;
+  min-height: 100%;
+}
+h1{
+  color: white;
+  font-size:40px;
+
+
+}
+
+.selectbox{
+  margin:  0px auto;
+  text-align: center;
+}
+.header{
+  height: 513px;
+  width: 1024px;
+  background-image:url(../images/the-urban-landscape-1698285.png);
+  background-size:1024px 380px;
+  background-repeat:no-repeat;
+  display: flex;
+  margin:0px auto;
+  flex-direction: column;
+  justify-content:space-around;
+
+  align-items: center; 
+  
+}
+.hotbox ul{
+  display: flex;
+  justify-content: space-around;
+}
+.hotbox h2{
+  padding-left:40px;
+  padding-bottom: 18px;
+  font-size:18px;
+
+}
+.hotbox li{
+  text-align:center;
+  line-height: 42px;
+  height: 42px;
+  width: 130px;
+}
+.hotbox li input{
+  width: 130px;
+  padding: 10px 0px;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  outline: none;
+  font-size: 20px;
+  line-height: 21px;
+  color: white;
+  cursor: pointer;
+}
+.hotbox li:nth-child(1){
+        background: #8A82CC;
+      }
+      .hotbox li:nth-child(2){
+        background: #FFA782;
+      }
+      .hotbox li:nth-child(3){
+        background: #F5D005;
+      }
+      .hotbox li:nth-child(4){
+        background: #559AC8;
+      }
+
+.hotbox{
+  height: 112px;
+  width: 800px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+ 
+}
+
+
+.hr{
+  width: 90%;
+  margin: 120px auto 50px auto;
+  border: 1px dashed #559AC8;
+}
+.title{
+  color: #8A82CC;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 36px;
+
+}
+.content{
+  max-width: 1024px;
+  margin: 0px auto;
+}
+.travelbox{
+  padding: 0px 40px;
+  
+}
+.travelbox li{
+  position:relative;
+  max-width: 464px;
+  width: calc(50% - 20px);
+  margin: 20px 5px;
+  padding-bottom: 10px;
+  background:white;
+  display: inline-block;
+  vertical-align:top;
+  text-align: right;
+}
+.travelbox .picture{
+
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 155px;
+}
+.travelbox h3{
+  position:absolute;
+  top: 115px;
+  margin: 0px 20px;
+  color:white;
+  font-size: 24px;
+  line-height: 28px;
+}
+.travelbox h2{
+  position:absolute;
+  top: 130px;
+  right: 0px;
+  margin: 0px 20px;
+  color:white;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bolder;
+}
+
+.opentime::before{
+  content:url(../images/icons_clock.png);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.address::before{
+  content: url(../images/icons_pin.png);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.telephone::before{
+  content: url(../images/icons_phone.png);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.toll::before{
+  content: url(../images/icons_tag.png);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.opentime,.address,.telephone{
+  text-align: left;
+  margin: 5px auto;
+  display: inline-block;
+}
+.opentime,.address{
+  width: 100%;
+}
+.telephone{
+  float: left;
+}
+
+.bottom{
+  margin:  0px auto ;
+  position:relative;
+  font-size:14px;
+  height: 90px;
+  width: 1024px;
+  background-color: #559AC8;
+  text-align:center;
+  line-height:30px;
+}
+.bottom a{
+  color:yellow;
+  text-decoration:none;
+}
+
+.bottom p{
+  color: white;
+}
+
